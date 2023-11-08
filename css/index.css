@@ -1,14 +1,4 @@
 /* stili generali */
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-h2, section:nth-child(1), footer{
-    text-align: center;
-}
-
 .distanziali{
     padding: 0px 30px;
 }
@@ -27,21 +17,15 @@ header{
     /* debug */
     background-color: red;
 }
-/* caratteristiche greca dentro main */
-.greca{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/* caratteristiche barre della greca  */
 .barra{
     border: 1px solid black;
     width: 20px;
 }
-
 /* caratteristiche sfondo main sezione portfolio */
 .sfondo{
     margin-bottom: 10px;
+    padding: 20px;
     /* debug */
     background-color: brown;
 }
