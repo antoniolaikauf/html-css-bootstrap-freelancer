@@ -9,6 +9,14 @@ h2{
     text-align: center;
 }
 
+.distanziali{
+    padding: 0px 30px;
+}
+
+section{
+    text-align: center;
+}
+
 /* stili container */
 
 header{
@@ -29,8 +37,8 @@ ul{
 }
 
 .bg-colorato{
-    text-align: center;
     background-color: blue;
+    text-align: center;
 }
 
 /* caratteristiche greca */
