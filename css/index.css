@@ -7,9 +7,19 @@
 
 /* stili container */
 
-.container{
+header{
     /* debug */
-    height: 300px;
     background-color: red;
     border: 1px solid black;
+}
+
+.col-2{
+    /* debug */
+    background-color: aqua;
+}
+/* caratteristiche ul */
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
