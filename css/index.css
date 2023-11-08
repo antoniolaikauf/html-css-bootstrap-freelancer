@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+h2{
+    text-align: center;
+}
+
 /* stili container */
 
 header{
@@ -22,4 +26,28 @@ ul{
     list-style: none;
     margin: 0px;
     padding: 0px;
+}
+
+.bg-colorato{
+    text-align: center;
+    background-color: blue;
+}
+
+/* caratteristiche greca */
+.greca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra{
+    border: 1px solid black;
+    width: 20px;
+}
+
+/* caratteristiche sfondo */
+.sfondo{
+    margin-bottom: 10px;
+    /* debug */
+    background-color: brown;
 }
