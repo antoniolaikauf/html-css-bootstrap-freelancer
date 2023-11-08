@@ -1,0 +1,15 @@
+/* stili generali */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* stili container */
+
+.container{
+    /* debug */
+    height: 300px;
+    background-color: red;
+    border: 1px solid black;
+}
