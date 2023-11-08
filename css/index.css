@@ -5,24 +5,12 @@
     box-sizing: border-box;
 }
 
-h2{
+h2, section:nth-child(1), footer{
     text-align: center;
 }
 
 .distanziali{
     padding: 0px 30px;
-}
-
-section, footer{
-    text-align: center;
-}
-
-/* stili container */
-
-header{
-    /* debug */
-    background-color: red;
-    border: 1px solid black;
 }
 /* caratteristiche ul */
 ul{
@@ -30,13 +18,16 @@ ul{
     margin: 0px;
     padding: 0px;
 }
-
+/* caratteristiche backgroud parti colorate */
 .bg-colorato{
     background-color: blue;
-    text-align: center;
 }
-
-/* caratteristiche greca */
+/* caratteristiche header */
+header{
+    /* debug */
+    background-color: red;
+}
+/* caratteristiche greca dentro main */
 .greca{
     display: flex;
     justify-content: center;
@@ -48,13 +39,13 @@ ul{
     width: 20px;
 }
 
-/* caratteristiche sfondo */
+/* caratteristiche sfondo main sezione portfolio */
 .sfondo{
     margin-bottom: 10px;
     /* debug */
     background-color: brown;
 }
-
+/* cartteristiche sfondo sezione footer */
 #bg-destinazione{
     background-color: rgb(215, 136, 39);
 }
