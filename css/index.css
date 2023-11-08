@@ -1,6 +1,9 @@
-/* stili generali */
+section, #bg-destinazione, #bg-copyright{
+    padding: 30px 0;
+}
+
 .distanziali{
-    padding: 0px 30px;
+    padding: 0px 40px;
 }
 /* caratteristiche ul */
 ul{
@@ -10,6 +13,7 @@ ul{
 }
 /* caratteristiche backgroud parti colorate */
 .bg-colorato{
+    /* debug */
     background-color: blue;
 }
 /* caratteristiche header */
@@ -17,7 +21,7 @@ header{
     /* debug */
     background-color: red;
 }
-/* caratteristiche barre della greca  */
+/* caratteristiche barre della greca in main */
 .barra{
     border: 1px solid black;
     width: 20px;
@@ -28,6 +32,15 @@ header{
     padding: 20px;
     /* debug */
     background-color: brown;
+}
+/* contatti pagina  */
+.contatti-pagina{
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
+.big{
+    padding-bottom: 60px;
 }
 /* cartteristiche sfondo sezione footer */
 #bg-destinazione{
