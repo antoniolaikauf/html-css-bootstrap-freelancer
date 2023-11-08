@@ -13,7 +13,7 @@ h2{
     padding: 0px 30px;
 }
 
-section{
+section, footer{
     text-align: center;
 }
 
@@ -23,11 +23,6 @@ header{
     /* debug */
     background-color: red;
     border: 1px solid black;
-}
-
-.col-2{
-    /* debug */
-    background-color: aqua;
 }
 /* caratteristiche ul */
 ul{
@@ -58,4 +53,12 @@ ul{
     margin-bottom: 10px;
     /* debug */
     background-color: brown;
+}
+
+#bg-destinazione{
+    background-color: rgb(215, 136, 39);
+}
+
+#bg-copyright{
+    background-color: rgb(5, 168, 168);
 }
