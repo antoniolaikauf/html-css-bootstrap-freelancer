@@ -1,3 +1,4 @@
+/* stili generali */
 section, .bg-copyright, .bg-destinazione{
     padding: 20px 0;
 }
@@ -5,15 +6,63 @@ section, .bg-copyright, .bg-destinazione{
 footer, h2, #contenitore-bottone{
     text-align: center;
 }
-
+/* caratteristiche backgroud sezioni colorate  */
+.bg-colorato{
+    background-color: #1abc9c;
+    color: white;
+}
+/* caratteristiche della greca in main */
 .greca{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px 0;
 }
 
+.barra{
+    border: 2px solid black;
+    width: 10%;
+}
+
+.barra-alternativo{
+    border:2px solid white;
+    width: 10%;
+}
+
+.greca i{
+    margin: 0 10px;
+}
+/* caratteristiche header */
+header{
+    background-color: #2c3e50;
+}
+/* caratteristiche nav preso da bootstrap */
+.navbar-light .navbar-brand,  .navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-light .navbar-toggler-icon{
+    filter: invert();
+}
+/* caratteristiche main */
+/* caratteristiche introduzzione pagina  */
 #contenitore-img img{
     width: 20%;
+}
+/* caratteristiche sfondo main sezione portfolio */
+.sfondo img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* caratteristiche cose su di noi */
+.btn-outline-primary{
+    color: white;
+    border-color: white;
+}
+/* caratteristiche contatti */
+.btn-primary{
+    background-color: #1abc9c;
+    border: #1abc9c;
 }
 
 .form-control{
@@ -21,36 +70,17 @@ footer, h2, #contenitore-bottone{
     border-bottom: 1px solid black;
     border-radius: 0px;
 }
-
-/* caratteristiche ul */
-ul{
-    list-style: none;
-}
-/* caratteristiche backgroud parti colorate */
-.bg-colorato{
-    background-color: #1abc9c;
+/* caratteristiche footer */
+#link-piattaforme a, .bg-copyright a{
     color: white;
-}
-/* caratteristiche header */
-header{
-    background-color: #2c3e50;
-}
-/* caratteristiche barre della greca in main */
-.barra{
-    border: 1px solid black;
-    width: 10%;
-}
-/* caratteristiche sfondo main sezione portfolio */
-.sfondo img{
-    width: 100%;
-    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
 }
 
-/* contatti pagina  */
-.contatti-pagina{
-    border-bottom: 1px solid black;
-}
-/* cartteristiche sfondo sezione footer */
 .bg-destinazione{
     background-color: #3a546d;
     color: white;
@@ -61,20 +91,7 @@ header{
     color: white;
 }
 
-.navbar-light .navbar-brand,  .navbar-light .navbar-nav .nav-link.active {
-    color: white;
-}
-
-.navbar-light .navbar-toggler-icon{
-    filter: invert();
-}
-
-.btn-outline-primary{
-    color: white;
-    border-color: white;
-}
-
-.btn-primary{
-    background-color: #1abc9c;
-    border: #1abc9c;
+#inizio-bootstrap{
+    color: #1abc9c;
+    text-decoration: none;
 }
