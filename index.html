@@ -14,24 +14,6 @@
 <body>
     <!-- inizio header -->
     <header>
-        <!-- <div class="container">
-            <div class="row justify-content-between">
-              <div class="col-2">
-                    <div>
-                        logo
-                </div>
-              </div>
-               <div class="col-2">
-                    <div class="d-md-none">
-                        logo
-                    </div>
-                    <ul class="d-none d-md-flex mb-0 ps-0">
-                        <li>testo</li>
-                        <li>testo</li>
-                        <li>testo</li>
-                   </ul>
-               </div>
-            </div> -->
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
@@ -59,14 +41,13 @@
     </header>
     <!-- inizio main -->
     <main>
-        <section class="bg-colorato text-center py-3"> <!--introduzzione pagina-->
+        <section class="bg-colorato text-center"> <!--introduzzione pagina-->
           <div class="distanziali">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div>
-                            <img src="" alt="">
-                            qua immagine
+                        <div id="contenitore-img">
+                            <img src="img/avatar.svg" alt="">
                         </div>
                         <h1>titolo</h1>
                         <div class="greca"> <!--inizio greca -->
@@ -88,44 +69,55 @@
            </div>
           </div>
         </section>
-        <section class="py-3"> <!--portfolio-->
+        <section > <!--portfolio-->
             <div class="container">
                <h2>sono un titolo</h2>
+               <div class="greca"> <!--inizio greca -->
+                    <div class="barra">
+                    
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="barra">
+                    
+                    </div>
+               </div>
                <div class="row  gy-3">
                     <div class="col-12 col-md-6 col-lg-4 text-center ">
                         <div class="sfondo">
-                            immagine
+                           <img src="img/cabin.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 text-center">
                         <div class="sfondo">
-                            immagine
+                             <img src="img/cabin.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 text-center">
                         <div class="sfondo">
-                            immagine
+                             <img src="img/cabin.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 text-center">
                         <div class="sfondo">
-                            immagine
+                             <img src="img/cabin.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 text-center">
                         <div class="sfondo">
-                            immagine
+                             <img src="img/cabin.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 text-center">
                         <div class="sfondo">
-                            immagine
+                             <img src="img/cabin.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="bg-colorato py-3"> <!--cose su di noi-->
+        <section class="bg-colorato "> <!--cose su di noi-->
             <div class="container px-5">
                 <h2>
                     titolo
@@ -157,7 +149,7 @@
                 </div>
             </div>
         </section>
-        <section class="py-3"> <!--contatti -->
+        <section > <!--contatti -->
             <div class="container px-5">
                 <h2>titolo</h2>
                 <div class="greca"> <!--inizio greca -->
@@ -171,19 +163,27 @@
                        
                     </div>
                 </div>
-                <div class=" row-cols-1">
-                    <div class="col-12">
-                        <div class="contatti-pagina py-2">testo</div>
-                        <div class="contatti-pagina py-2">testo</div>
-                        <div class="contatti-pagina py-2" >testo</div>
-                        <div class="contatti-pagina pb-5 pt-2">testo</div>
-                    </div>
-                    <div class="col-12">
-                        <div>
-                            <a href="">sono un bottone</a>
-                        </div>
-                    </div>
-                </div>
+                 <form action="">
+                      <div class="form-floating ">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                      </div>
+                      <div class="col-12">
+                        <button class="btn btn-primary mt-3" type="submit">Submit form</button>
+                      </div>
+                 </form>
             </div>
         </section>
     </main>
@@ -202,7 +202,7 @@
                    </div>
                 </div>
            </div>
-           <div class="bg-copyright py-3"> <!--copyright-->
+           <div class="bg-copyright"> <!--copyright-->
                 testo
            </div>
     </footer>

@@ -1,3 +1,7 @@
+section, .bg-copyright, .bg-destinazione{
+    padding: 20px 0;
+}
+
 footer, h2{
     text-align: center;
 }
@@ -6,6 +10,16 @@ footer, h2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#contenitore-img img{
+    width: 20%;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
 }
 
 /* caratteristiche ul */
@@ -28,11 +42,11 @@ header{
     width: 20px;
 }
 /* caratteristiche sfondo main sezione portfolio */
-.sfondo{
-    padding: 20px;
-    /* debug */
-    background-color: brown;
+.sfondo img{
+    width: 100%;
+    border-radius: 5px;
 }
+
 /* contatti pagina  */
 .contatti-pagina{
     border-bottom: 1px solid black;
