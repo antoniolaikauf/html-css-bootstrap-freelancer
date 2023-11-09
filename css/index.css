@@ -91,3 +91,7 @@ footer, a{
     color: #1abc9c;
     text-decoration: none;
 }
+/* caratteristiche hover logo start bootstrap  */
+.navbar-light .navbar-brand:hover{
+    color: white;
+}
