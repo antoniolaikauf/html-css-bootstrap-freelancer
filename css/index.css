@@ -1,3 +1,13 @@
+footer, h2{
+    text-align: center;
+}
+
+.greca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* caratteristiche ul */
 ul{
     list-style: none;
@@ -19,7 +29,6 @@ header{
 }
 /* caratteristiche sfondo main sezione portfolio */
 .sfondo{
-    margin-bottom: 10px;
     padding: 20px;
     /* debug */
     background-color: brown;
