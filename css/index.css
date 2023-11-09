@@ -1,5 +1,5 @@
 /* stili generali */
-section, .bg-copyright, .bg-destinazione{
+section, #ms_bg-copyright, #ms_bg-destinazione{
     padding: 20px 0;
 }
 
@@ -7,31 +7,32 @@ footer, h2, #contenitore-bottone{
     text-align: center;
 }
 /* caratteristiche backgroud sezioni colorate  */
-.bg-colorato{
+.ms_bg-colorato{
     background-color: #1abc9c;
     color: white;
 }
 /* caratteristiche della greca in main */
-.greca{
+.ms_greca{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px 0;
 }
 
-.barra{
+.ms_barra{
     border: 2px solid black;
     width: 10%;
 }
 
-.barra-alternativo{
+.ms_barra-alternativo{
     border:2px solid white;
     width: 10%;
 }
 
-.greca i{
+.ms_greca i{
     margin: 0 10px;
 }
+/* inizion caratteristiche specifiche progetto */
 /* caratteristiche header */
 header{
     background-color: #2c3e50;
@@ -46,11 +47,11 @@ header{
 }
 /* caratteristiche main */
 /* caratteristiche introduzzione pagina  */
-#contenitore-img img{
+#ms_contenitore-img img{
     width: 20%;
 }
 /* caratteristiche sfondo main sezione portfolio */
-.sfondo img{
+.ms_card img{
     width: 100%;
     border-radius: 5px;
 }
@@ -64,15 +65,12 @@ header{
     background-color: #1abc9c;
     border: #1abc9c;
 }
-
-.form-control{
-    border: none;
-    border-bottom: 1px solid black;
-    border-radius: 0px;
-}
 /* caratteristiche footer */
-#link-piattaforme a, .bg-copyright a{
+footer, a{
     color: white;
+}
+
+#ms_link-piattaforme a, #ms_bg-copyright a{
     text-decoration: none;
     display: inline-block;
     border-radius: 50%;
@@ -81,14 +79,12 @@ header{
     border: 1px solid white;
 }
 
-.bg-destinazione{
+#ms_bg-destinazione{
     background-color: #3a546d;
-    color: white;
 }
 
-.bg-copyright{
+#ms_bg-copyright{
     background-color: #2c3e50;
-    color: white;
 }
 
 #inizio-bootstrap{
