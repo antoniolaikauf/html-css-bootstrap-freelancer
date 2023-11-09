@@ -28,13 +28,11 @@ ul{
 }
 /* caratteristiche backgroud parti colorate */
 .bg-colorato{
-    /* debug */
-    background-color: blue;
+    background-color: #1abc9c;
 }
 /* caratteristiche header */
 header{
-    /* debug */
-    background-color: red;
+    background-color: #2c3e50;
 }
 /* caratteristiche barre della greca in main */
 .barra{
@@ -53,9 +51,9 @@ header{
 }
 /* cartteristiche sfondo sezione footer */
 .bg-destinazione{
-    background-color: rgb(215, 136, 39);
+    background-color: #3a546d;
 }
 
 .bg-copyright{
-    background-color: rgb(5, 168, 168);
+    background-color: #2c3e50;
 }
