@@ -2,7 +2,7 @@ section, .bg-copyright, .bg-destinazione{
     padding: 20px 0;
 }
 
-footer, h2{
+footer, h2, #contenitore-bottone{
     text-align: center;
 }
 
@@ -37,8 +37,8 @@ header{
 }
 /* caratteristiche barre della greca in main */
 .barra{
-    border: 1px solid white;
-    width: 20px;
+    border: 1px solid black;
+    width: 10%;
 }
 /* caratteristiche sfondo main sezione portfolio */
 .sfondo img{
@@ -67,4 +67,14 @@ header{
 
 .navbar-light .navbar-toggler-icon{
     filter: invert();
+}
+
+.btn-outline-primary{
+    color: white;
+    border-color: white;
+}
+
+.btn-primary{
+    background-color: #1abc9c;
+    border: #1abc9c;
 }
